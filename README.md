@@ -1,5 +1,7 @@
 # Portafolio De Inversion en Python
 
+Este ejercicio se realiza bajo la guía del vídeo [How to Invest with Data Science](https://www.youtube.com/watch?v=4jaBKXDqg9U&list=PL0UhIYS-b6hhMFshRCFapwuPq9Dhvn4V8&index=2&t=11383s&ab_channel=DerekBanas) hecho por Derek Banas, el código es de su autoría, este es un ejercicio netamente académico y no busca ser una guía financiera.
+
 ## Objetivo
 Generar por medio de Python código que permita la extracción de datos de inversión bursátil, la selección de un conjunto de activos y la creación de un portafolio de inversión.
 
