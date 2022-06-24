@@ -17,9 +17,9 @@ Es un índice ponderado por la capitalización bursátil del valor de mercado de
 
 # Generación del portafolio
 
-Se presenta a continuación un resúmen de las principales funcionalidades del código, para tener acceso a los archivos utilizar este link 
+Se presenta a continuación un resúmen de las principales funcionalidades del código, para tener acceso a los archivos utilizar este [link](https://github.com/FabianPedreros/PortafolioDeInversionPython) 
 
-## 1. Obtención de la información de las acciones. Archivo: Portafolio_inversion_descarga.py
+## 1. Obtención de la información de las acciones. Archivo: [Portafolio_inversion_descarga.py](https://github.com/FabianPedreros/PortafolioDeInversionPython/blob/main/Portafolio_inversion_descarga.py)
 
 Decarga o consulta de la información de acciones desde Yahoo Finance ##
 
@@ -88,7 +88,7 @@ Los CSV contienen datos para cada una de las acciones de la fecha de lectura his
 
 ![image](https://user-images.githubusercontent.com/32172901/175706980-c64f344c-b253-4995-816d-62a6a0b8cb54.png)
 
-## 2. Generación de cálculos requeridos para la creación de gráficos
+## 2. Generación de cálculos requeridos para la creación de gráficos. Archivo: [Portafolio_inversion_calculos.py](https://github.com/FabianPedreros/PortafolioDeInversionPython/blob/main/Portafolio_inversion_calculos.py)
 
 
 Obtener un listado de los stocks que han sido descargados 
@@ -207,7 +207,7 @@ Se obtiene para cada stock en cada archivo csv, los valores del retorno diario, 
 
 ![image](https://user-images.githubusercontent.com/32172901/175719207-edef584c-43aa-436e-9c43-e8efd3f377da.png)
 
-## 3. Generación de las funciones para la creación de las gráficas de Bollinger Bands e Ichimoku.
+## 3. Generación de las funciones para la creación de las gráficas de Bollinger Bands e Ichimoku. [Portafolio_inversion_graficos.py](https://github.com/FabianPedreros/PortafolioDeInversionPython/blob/main/Portafolio_inversion_graficos.py)
 
 Gráficar las Bollinger bands
 
@@ -323,7 +323,7 @@ Gráfica Ishimoku para el ticker AA.
 
  
 
-## 4. Obtener la información de los sectores para las acciones que conforman el Wilshire 5000.
+## 4. Obtener la información de los sectores para las acciones que conforman el Wilshire 5000. [Portafolio_inversion_sectores.py](https://github.com/FabianPedreros/PortafolioDeInversionPython/blob/main/Portafolio_inversion_sectores.py)
 
 
 Esta información se encuentra en el archivo 'big_stock_sectors.csv'
@@ -441,7 +441,7 @@ Gráficar alguna de las acciones para decidir en cual se podría llegar a invert
 
 De esta manera se obtienen los retornos acumulados de las acciones por sector y se generan las gráficas de Ishimoku, con el fin de realizar una selección manual de las acciones que conformarán el portafolio. 
 
-## 5. Obtención del portafolio a invertir según la optimización de Markowitz con acciones con baja correlación.
+## 5. Obtención del portafolio a invertir según la optimización de Markowitz con acciones con baja correlación. [Portafolio_inversion_portafolio.py](https://github.com/FabianPedreros/PortafolioDeInversionPython/blob/main/Portafolio_inversion_portafolio.py)
 
 
 Obtener los datos de los CSV creados
